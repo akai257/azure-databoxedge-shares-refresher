@@ -1,5 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -9,9 +8,9 @@ on:
     branches: [ master ]
 
 env:
-  RESOURCE_GROUP: EdgeTest
+  RESOURCE_GROUP: NCR_Databox_Edge
   LOCATION: eastus
-  CUSTOM_ROLE_NAME: ultanki-azsedge-refresh
+  CUSTOM_ROLE_NAME: ncrlabs-azsedge-share-refresher
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
